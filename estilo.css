@@ -1,5 +1,5 @@
 	header {
-		background-image: url("imagens/glitterroxo.jpeg");
+		background-color: rebeccapurple;
 		text-align: center;
 		font-family: Arial;
 		color: white;
@@ -71,8 +71,6 @@
 		justify-content: center;
 		
 	}
-	
-	
 	.provas {
 		display:flex;
 		gap: 20px;
@@ -189,4 +187,6 @@
 		
 	footer {
 		text-align: center;
+		color: white;
+		background-color: rebeccapurple;
 			}	
