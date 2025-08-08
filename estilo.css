@@ -60,6 +60,19 @@
 		padding: 20px;
 			}
 	
+	.participantes {
+		margin-left: 20px;
+	}
+	
+	.banner {
+		border: none;
+		border-color: none;
+		display: flex;
+		justify-content: center;
+		
+	}
+	
+	
 	.provas {
 		display:flex;
 		gap: 20px;
@@ -123,47 +136,57 @@
 		background-image: url("imagens/glitterroxo.jpeg");
 		text-align: center;
 		color: white;
-		
-	}
+		}
 	
 	.temporadas {
+		display:flex;
 		margin-top:10px;
-		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 5px;
-			}
+		padding: 20px;
+				}
 			
-	.temporadas img {
-		width: 250px;
-		height: auto;
-		}
-	
-	.sucesso {
-		margin-top:50px;
-		margin-bottom:50px;
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: space-around;
-		gap: 15px;
-			}
-
-	
-	footer {
-		text-align: center;
-			}
-			
-	#sobretemporada {
-		text-align: center;
-	}
-	
-	#fora-das-telas {
-		text-align: center;
-	}
-	
 	.temporadas img {
 		width: 250px;
 		height: 320px;
 		}
+		
+	.temp1 {
+		display:flex;
+		padding-left: 20px;
+		}
+		
+	.sobretemporada	{
+		padding-left: 20px;
+		}
+		
+	.alcance {
+		padding-left: 20px;
+	}
+	
+	.sucesso {
+		margin-top:0px;
+		margin-bottom:0px;
+		padding-left: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		gap: 15px;
+			}
+	
+	.contatos {
+		display:flex;
+		flex-direction: column;
+		padding-left: 20px;
+        }
+		
+	.email {
+		display:flex;
+		flex-direction: column;
+		}	
+		
+	footer {
+		text-align: center;
+			}	
