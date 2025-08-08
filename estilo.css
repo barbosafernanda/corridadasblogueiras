@@ -1,0 +1,169 @@
+	header {
+		background-image: url("imagens/glitterroxo.jpeg");
+		text-align: center;
+		font-family: Arial;
+		color: white;
+		border-width: 0px 0px 5px 0px;
+		border-color: #ebebeb;
+		border-style: solid;
+		padding: 10px 10px 10px 10px;
+		}			
+		
+	ul {
+		list-style: none;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+	a:visited {
+		color: white;
+	}
+			
+	main  {
+		background-color: #f3f2f1;
+		font-family: Arial;
+	      }
+	
+	#logo {
+		padding-left: 20px;
+		  }
+	
+	.sobre {
+		display:flex;
+		border: none;
+		border-color: none;
+		padding: 20px;
+			}
+	
+	.sobre img {
+		width: 250px;
+		height: auto;
+	}
+			
+	.meninos {
+		display:flex;
+		gap: 20px;
+		text-align:justify;
+		padding-right: 20px;
+				}
+	.corrida {
+		display:flex;
+		gap: 20px;
+		text-align:justify;
+		padding-right: 20px;
+				}
+	
+	.dinamica {
+		display:flex;
+		border: none;
+		border-color: none;
+		padding: 20px;
+			}
+	
+	.provas {
+		display:flex;
+		gap: 20px;
+		text-align:justify;
+		padding-right: 20px;
+			}
+	
+	.provas img {
+		width: 700px;
+		height: auto;
+	}
+		
+	.final {
+		display:flex;
+		border: none;
+		border-color: none;
+		padding: 20px;
+		justify-content: space-around;
+		gap: 20px;
+			}
+	
+	.dinheiro {
+		display:flex;
+		border: solid;
+		justify-content: center;
+		border-color: pink;
+		padding: 20px;
+		flex-basis: 33%;
+		background-image: url("imagens/glitterroxo.jpeg");
+		color: white;
+			}
+		
+	.contrato {
+		display:flex;
+		border: solid;
+		justify-content: center;
+		border-color: pink;
+		padding: 20px;
+		flex-basis: 33%;
+		background-image: url("imagens/glitterroxo.jpeg");
+		color: white;
+		
+			}
+	.coroa {
+		display:flex;
+		border: solid;
+		justify-content: center;
+		border-color: pink;
+		padding: 20px;
+		flex-basis: 33%;
+		background-image: url("imagens/glitterroxo.jpeg");
+		color: white;
+			}
+	
+	.patrocinio {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		border: solid;
+		border-color: pink;
+		background-image: url("imagens/glitterroxo.jpeg");
+		text-align: center;
+		color: white;
+		
+	}
+	
+	.temporadas {
+		margin-top:10px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 5px;
+			}
+			
+	.temporadas img {
+		width: 250px;
+		height: auto;
+		}
+	
+	.sucesso {
+		margin-top:50px;
+		margin-bottom:50px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		gap: 15px;
+			}
+
+	
+	footer {
+		text-align: center;
+			}
+			
+	#sobretemporada {
+		text-align: center;
+	}
+	
+	#fora-das-telas {
+		text-align: center;
+	}
+	
+	.temporadas img {
+		width: 250px;
+		height: 320px;
+		}
